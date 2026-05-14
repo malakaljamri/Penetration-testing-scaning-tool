@@ -199,10 +199,5 @@ For HTTPS targets with self-signed certificates, DirFinder will accept all certi
 ### TinyScanner timeouts
 Adjust the timeout in `tinyscanner.py` if you're scanning over high-latency networks.
 
-## License
-
-This project is for educational purposes. Use responsibly and ethically.
-
 ## Author
-
-Created as a penetration testing learning project.
+malakaljamri
