@@ -1,0 +1,8 @@
+TinyScanner Results for 127.0.0.1
+==================================================
+
+Port 22 is closed
+Port 80 is closed
+Port 443 is closed
+Port 3000 is open (Unknown)
+Port 8080 is closed
