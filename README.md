@@ -45,6 +45,37 @@ chmod +x pentestkit.py
 
 ## Usage
 
+### User Interface Options
+
+PentestKit provides three ways to interact with the tools:
+
+#### 1. Command Line Interface (CLI)
+```bash
+python pentestkit.py --help
+```
+
+#### 2. Interactive Menu Interface (Recommended for non-technical users)
+A simple text-based menu interface for easy tool selection and parameter input:
+
+```bash
+python pentestkit_menu.py
+```
+
+Features:
+- Numbered menu to select tools
+- Interactive prompts with default values
+- No technical knowledge required
+- Works on all systems
+
+#### 3. Graphical User Interface (GUI)
+A tkinter-based GUI for visual tool selection (may have compatibility issues on some macOS versions):
+
+```bash
+python pentestkit_gui.py
+```
+
+**Note:** If the GUI fails to run due to macOS compatibility, use the menu interface instead.
+
 ### General Help
 
 ```bash
@@ -164,11 +195,14 @@ A sample wordlist (`wordlist.txt`) is included with common directory and file na
 ```
 Penetration-testing-scaning-tool/
 ├── pentestkit.py          # Main CLI interface
+├── pentestkit_menu.py     # Interactive menu interface
+├── pentestkit_gui.py      # Graphical user interface
 ├── tinyscanner.py         # Port scanner implementation
 ├── dirfinder.py           # Directory brute-forcer
 ├── hostmapper.py          # Ping sweep tool
 ├── headergrabber.py       # HTTP header analyzer
 ├── wordlist.txt           # Sample wordlist
+├── tests.md               # Test commands reference
 └── README.md              # This file
 ```
 
